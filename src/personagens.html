@@ -10,18 +10,21 @@
 </head>
 
 <body>
+  <div id="main-container">
   <span id="topo"></span>
-  <header id="btnMenu">
+  <header>
     <nav>
       <ul>
-        <li class="inicio"><a href="/src/index.html">Início</a></li>
+        <li class="inicio"><a href="./index.html"><img src="./assets/bt_inicio.png"></a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <h1>Personagens</h1>
+    <figure class="personagensTitulo">
+    <img src="./assets/personagens_logo.png">
+  </figure>
     <section class="section-filter">
-      <label for="filter" class="inputFilter">Filter</label>
+      <label for="filter" class="inputFilter"></label>
       <input id="filter" type="text" placeholder="Nome...">
       <!-- <i class="ph-magnifying-glass"></i>-->
       <select id="filtrarPorFamilia">
@@ -46,6 +49,6 @@
   
   <script src="main.js" type="module"></script>
   <script src="data.js" type="module"></script>
-
+</div>
 </body>
 </html>
